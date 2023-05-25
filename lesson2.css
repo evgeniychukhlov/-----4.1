@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+.mob {
+  display: none;
+}
+.background_section {
+  background-image: url(img/background_main.svg);
+  width: auto;
+  height: 920px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+nav:hover {
+  border-bottom: #ffffff solid 2px;
+  cursor: pointer;
+}
+.header_menu1 {
+  padding-left: 60px;
+}
+
+.header_menu2 {
+  margin-left: 284px;
+}
+
+.header_menu3 {
+  margin-left: 127px;
+}
+
+.header_menu4 {
+  margin-left: 53px;
+}
+
+.header_menu5 {
+  margin-left: 95px;
+}
+
+.header_menu6 {
+  margin-left: 317px;
+  margin-right: 60px;
+}
+
+.Sebastian_Mullaert {
+  font-family: "Quattrocento", serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 96px;
+  font-weight: normal;
+}
+
+.biography {
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-top: 75px;
+  padding-left: 960px;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Sebastian_Mullaert2 {
+  margin-top: 230px;
+  width: 100vw;
+  height: 24px;
+  left: -25px;
+  overflow: hidden;
+  position: relative;
+  text-transform: capitalize;
+}
+.simplicity_of_being {
+  color: #ffffff;
+  margin-top: 181px;
+  margin-left: 135px;
+  margin-right: 1107px;
+  font-size: 16px;
+}
+.image2 {
+  text-align: center;
+  margin-top: -155px;
+  position: relative;
+}
+
+.audio-visual-perfomancer {
+  margin-top: 100px;
+  margin-left: 1400px;
+  font-size: 16px;
+}
+
+.about {
+  position: relative;
+  margin-left: 210px;
+  top: 50px;
+}
+.text-color-green {
+  color: #71870e;
+}
+.font-1 {
+  font-family: "Montserrat";
+}
+
+.font-2 {
+  font-family: "Quattrocento", serif;
+}
+.musical_artist {
+  width: 1089px;
+  height: 128px;
+  font-size: 60px;
+  margin-left: 210px;
+  margin-top: 20px;
+  margin-right: 141px;
+  text-indent: 150px;
+  font-weight: normal;
+}
+.musical_artist_text {
+  position: relative;
+  width: 640px;
+  height: 224px;
+  margin-left: 640px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.music_artist_container {
+  position: relative;
+}
+
+.utterly_unique {
+  position: relative;
+  top: 50px;
+  margin-left: 450px;
+}
+.philosophy_container {
+  position: relative;
+  width: 50%;
+}
+.convergence_of::before {
+  position: relative;
+  content: "(Philosofy)";
+  font-family: "Montserrat";
+  font-size: 14px;
+  bottom: 30px;
+}
+.convergence_of {
+  position: relative;
+  width: 614px;
+  height: 192px;
+  font-size: 60px;
+  line-height: 64px;
+  margin-top: 287px;
+  margin-left: 135px;
+}
+.the_majesty {
+  position: relative;
+  width: 396px;
+  height: 168px;
+  margin-top: 100px;
+  margin-left: 285px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.philosofy_images_container {
+  width: 50%;
+  position: relative;
+}
+.image3 {
+  width: 464px;
+  height: 634px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-left: 900px;
+  margin-top: -560px;
+}
+.image4 {
+  position: absolute;
+  width: 260px;
+  height: 326px;
+  margin-left: 1250px;
+  bottom: 180px;
+}
+.based_on {
+  position: absolute;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 75px;
+  width: 211px;
+  height: 24px;
+  margin-left: 1050px;
+}
+.true_balance_in_itself_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 219px;
+}
+.as_a_human {
+  font-size: 96px;
+  width: 1077px;
+  height: 500px;
+  text-indent: 70px;
+}
+.as_a_human::before {
+  content: " (True balance in itself) ";
+  position: relative;
+  top: 2 px;
+  right: 50px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: normal;
+}
+.as_a_human_cont {
+  text-indent: 70px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .audio-visual-perfomancer {
+    margin-left: 1309px;
+  }
+  .image3 {
+    margin-left: 784px;
+  }
+  .image4 {
+    margin-left: 1135px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .audio-visual-perfomancer {
+    margin-left: 915px;
+  }
+
+  .musical_artist_text {
+    margin-left: 292px;
+  }
+  .music_artist_container {
+    position: relative;
+    margin-left: -157px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 851px;
+  }
+  .philosophy_container {
+    position: relative;
+    width: 50%;
+    margin-left: -102px;
+  }
+  .image3 {
+    margin-left: 695px;
+  }
+  .image4 {
+    margin-left: 1021px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    margin-left: 182px;
+    margin-top: 100px;
+    margin-right: 0;
+    text-indent: 0;
+    font-weight: normal;
+  }
+  .musical_artist_text {
+    margin-left: 24px;
+    width: auto;
+    height: auto;
+  }
+  .image2 {
+    margin-left: -90px;
+  }
+  .convergence_of::before {
+    display: none;
+  }
+  .philosophy_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .convergence_of {
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 70px;
+    width: auto;
+    height: auto;
+  }
+  .the_majesty {
+    margin-top: -65px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .image3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 676px;
+    transform: scale(1);
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .image4 {
+    position: none;
+    width: 365px;
+    height: 391px;
+    left: 131px;
+    top: 1185px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .based_on {
+    display: none;
+  }
+  .read_more {
+    margin-top: -5px;
+    margin-left: 143px;
+  }
+  .line {
+    margin-top: -18px;
+    margin-left: -68px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    margin-left: 182px;
+    margin-top: 100px;
+    margin-right: 0;
+    text-indent: 0;
+    font-weight: normal;
+  }
+  .musical_artist_text {
+    margin-left: 24px;
+    width: auto;
+    height: auto;
+  }
+  .image2 {
+    margin-left: -130px;
+  }
+  .convergence_of::before {
+    display: none;
+  }
+  .philosophy_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .convergence_of {
+    margin-top: 0;
+    margin-left: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 70px;
+    width: auto;
+    height: auto;
+  }
+  .the_majesty {
+    margin-top: -65px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .image3 {
+    width: 375px;
+    height: 600px;
+    transform: scale(1);
+
+    margin-top: 0;
+  }
+  .image4 {
+    position: none;
+    width: 277px;
+    height: 333px;
+    margin-left: -13px;
+    margin-top: -208px;
+  }
+  .based_on {
+    display: none;
+  }
+  .read_more {
+    margin-top: -5px;
+    margin-left: 143px;
+  }
+  .line {
+    margin-top: -18px;
+    margin-left: -68px;
+  }
+}
