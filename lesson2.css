@@ -4,6 +4,25 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
+@font-face {
+  font-family: "Ogg";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/OggRegular.woff) format(woff);
+}
+@font-face {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Trade\ Gothic\ LT\ Extended.woff) format(woff);
+}
+.font-1 {
+  font-family: "TradeGothic LT Extended";
+}
+
+.font-2 {
+  font-family: "Ogg";
+}
 .mob {
   display: none;
 }
@@ -108,13 +127,7 @@ nav:hover {
 .text-color-green {
   color: #71870e;
 }
-.font-1 {
-  font-family: "Montserrat";
-}
 
-.font-2 {
-  font-family: "Quattrocento", serif;
-}
 .musical_artist {
   width: 1089px;
   height: 128px;
@@ -156,6 +169,7 @@ nav:hover {
 }
 .convergence_of {
   position: relative;
+  font-family: "Ogg";
   width: 614px;
   height: 192px;
   font-size: 60px;
