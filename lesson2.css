@@ -11,6 +11,7 @@ body {
   background-image: url(img/background_main.svg);
   width: auto;
   height: 920px;
+  background-size: cover;
 }
 
 .header {
@@ -101,7 +102,7 @@ nav:hover {
 
 .about {
   position: relative;
-  margin-left: 210px;
+  margin-left: 420px;
   top: 50px;
 }
 .text-color-green {
@@ -118,10 +119,10 @@ nav:hover {
   width: 1089px;
   height: 128px;
   font-size: 60px;
-  margin-left: 210px;
+  margin-left: 415px;
   margin-top: 20px;
   margin-right: 141px;
-  text-indent: 150px;
+  text-indent: 210px;
   font-weight: normal;
 }
 .musical_artist_text {
@@ -144,10 +145,11 @@ nav:hover {
 .philosophy_container {
   position: relative;
   width: 50%;
+  margin-left: 103px;
 }
 .convergence_of::before {
   position: relative;
-  content: "(Philosofy)";
+  content: "(Philosophy)";
   font-family: "Montserrat";
   font-size: 14px;
   bottom: 30px;
@@ -178,6 +180,7 @@ nav:hover {
   width: 464px;
   height: 634px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: scale(1);
   margin-left: 900px;
   margin-top: -560px;
 }
@@ -220,6 +223,14 @@ nav:hover {
 .as_a_human_cont {
   text-indent: 70px;
 }
+.line {
+  margin-left: 170px;
+}
+.read_more {
+  margin-left: 275px;
+  color: #cd9a3d;
+  margin-top: -16px;
+}
 
 @media only screen and (max-width: 1440px) {
   .audio-visual-perfomancer {
@@ -231,6 +242,39 @@ nav:hover {
   .image4 {
     margin-left: 1135px;
   }
+  .Sebastian_Mullaert2 {
+    width: 2024px;
+  }
+  .header_menu2 {
+    margin-left: 150px;
+  }
+  .header_menu6 {
+    margin-left: 127px;
+  }
+  .simplicity_of_being {
+    margin-right: 0;
+  }
+  .biography {
+    padding-left: 800px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 1170px;
+  }
+  .musical_artist_text {
+    position: relative;
+    width: 640px;
+    height: 224px;
+    margin-left: 630px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .music_artist_container {
+    position: relative;
+    margin-left: -240px;
+  }
+  .philosophy_container {
+    margin-left: -60px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -239,25 +283,102 @@ nav:hover {
   }
 
   .musical_artist_text {
-    margin-left: 292px;
+    margin-left: 351px;
   }
   .music_artist_container {
     position: relative;
     margin-left: -157px;
   }
+  .musical_artist {
+    margin-left: 172px;
+  }
+  .about {
+    margin-left: 180px;
+  }
   .audio-visual-perfomancer {
-    margin-left: 851px;
+    margin-left: 742px;
   }
   .philosophy_container {
     position: relative;
     width: 50%;
-    margin-left: -102px;
+    margin-left: -60px;
   }
   .image3 {
-    margin-left: 695px;
+    margin-left: 655px;
+    width: 355px;
+    height: 497px;
   }
   .image4 {
-    margin-left: 1021px;
+    margin-left: 875px;
+    width: 193px;
+    top: -370px;
+  }
+}
+.the_majesty {
+  margin-left: 203px;
+}
+.based_on {
+  margin-top: 26px;
+  margin-left: 755px;
+}
+@media only screen and (max-width: 768px) {
+  .mob {
+    display: none;
+  }
+  .header_menu2 {
+    margin-left: 88px;
+  }
+  .header_menu3 {
+    margin-left: 56px;
+  }
+  .header_menu5 {
+    margin-left: 44px;
+  }
+  .header_menu6 {
+    margin-left: 49px;
+  }
+  .Sebastian_Mullaert {
+    font-size: 86px;
+  }
+  .biography {
+    padding-left: 597px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 506px;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    text-indent: 50px;
+    font-size: 46px;
+    margin-right: 0;
+    margin-left: 213px;
+  }
+  .musical_artist_text {
+    margin-left: 240px;
+  }
+  .convergence_of {
+    font-size: 54px;
+    line-height: 48px;
+    margin-top: 287px;
+    margin-left: 87px;
+  }
+  .the_majesty {
+    margin-left: 99px;
+    margin-top: -37px;
+  }
+  .image3 {
+    margin-left: 491px;
+    width: 374px;
+    height: 332px;
+  }
+  .image4 {
+    margin-left: 707px;
+    width: 117px;
+    top: -289px;
+  }
+  .based_on {
+    margin-left: 586px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -267,23 +388,36 @@ nav:hover {
   .mob {
     display: block;
   }
+  .header {
+    display: none;
+  }
+  .simplicity_of_being {
+    margin-top: 0;
+    margin-left: 237px;
+  }
+  .Sebastian_Mullaert {
+    text-align: center;
+    margin-top: 200px;
+  }
   .musical_artist {
     width: auto;
     height: auto;
     font-size: 40px;
     margin-left: 182px;
-    margin-top: 100px;
+    margin-top: -97px;
     margin-right: 0;
     text-indent: 0;
     font-weight: normal;
   }
   .musical_artist_text {
-    margin-left: 24px;
+    margin-left: 177px;
+
     width: auto;
     height: auto;
   }
   .image2 {
     margin-left: -90px;
+    margin-top: -155px;
   }
   .convergence_of::before {
     display: none;
@@ -360,14 +494,14 @@ nav:hover {
     width: auto;
     height: auto;
     font-size: 40px;
-    margin-left: 182px;
-    margin-top: 100px;
+    margin-left: 180px;
+    margin-top: -87px;
     margin-right: 0;
     text-indent: 0;
     font-weight: normal;
   }
   .musical_artist_text {
-    margin-left: 24px;
+    margin-left: 180px;
     width: auto;
     height: auto;
   }
@@ -412,24 +546,23 @@ nav:hover {
     height: 600px;
     transform: scale(1);
 
-    margin-top: 0;
+    margin-top: 30px;
   }
   .image4 {
-    position: none;
-    width: 277px;
+    width: 318px;
     height: 333px;
     margin-left: -13px;
-    margin-top: -208px;
+    margin-top: -46px;
   }
   .based_on {
     display: none;
   }
   .read_more {
-    margin-top: -5px;
-    margin-left: 143px;
+    margin-top: -6px;
+    margin-left: 205px;
   }
   .line {
-    margin-top: -18px;
+    margin-top: -632px;
     margin-left: -68px;
   }
 }
